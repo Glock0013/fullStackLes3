@@ -1,0 +1,10 @@
+<header>
+    <h1>AppName</h1>
+    <h5><% if(new Date().getHours() < 12){  %></h5>
+        good morning
+        <%} else if(new Date().getHours() < 18){%>
+        good afternoon
+        <%} else{%>
+            good evening
+        <%}%>
+</header>
